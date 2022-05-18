@@ -35,5 +35,6 @@ if user_pass == password:
 		with open(file, "wb") as thefile:
 			thefile.write(contents_decrypted)
 		print("Correct password, congrats")
+		break
 else:
 	print("Haha wrong password, send me more bitcoin")
